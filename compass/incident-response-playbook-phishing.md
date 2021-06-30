@@ -252,7 +252,7 @@ For this investigation, it is assumed that you either have a sample phishing ema
 
 This playbook is created with the intention that not all Microsoft customers and their investigation teams will have the full Microsoft 365 E5 or Azure AD Premium P2 license suite available or configured in the tenant that is being investigated. We will however highlight additional automation capabilities when appropriate.
 
-### [Get the list of users / identities who got the email](#findemail)
+### [Get the list of users / identities who got the email]
 
 As the very first step, you need to get a list of users / identities who received the phishing email. The objective of this step is to record a list of potential users / identities that you will later use to iterate through for additional investigation steps. Please refer to the [Workflow](#workflow) section for a high-level flow diagram of the steps you need to follow during this investigation.
 
@@ -543,7 +543,7 @@ Here are a few third-party URL reputation examples
 
 As you investigate the IP addresses and URLs, look for and correlate IP addresses to indicators of compromise (IOCs) or other indicators, depending on the output or results and add them to a list of sources from the adversary.
 
-### [Did the user click the link in the email?](#clicklink)
+### [Did the user click the link in the email?]
 
 If the user has clicked the link in the email (on-purpose or not), then this action typically leads to a new process creation on the device itself. Depending on the device this was performed, you need perform device-specific investigations. For example, Windows vs Android vs iOS. In this article, we have described a general approach along with some details for Windows-based devices. If you are using Microsoft Defender for Endpoint (MDE), then you can also leverage it for iOS and soon Android.
 
@@ -569,19 +569,19 @@ You can investigate these events using Microsoft Defender for Endpoint.
 
 ### On what endpoint was the email opened?
 
-The tasks here are similar to the previous investigation step: <a name="clicklink"> Did the user click the link in the email?</a>
+The tasks here are similar to the previous investigation step - Did the user click the link in the email?
 
 ### Was the attached payload executed?
 
-The tasks here are similar to the previous investigation step: <a name="clicklink"> Did the user click the link in the email?</a>
+The tasks here are similar to the previous investigation step - Did the user click the link in the email?
 
 ### Was the destination IP / URL touched or opened?
 
-The tasks here are similar to the previous investigation step: <a name="clicklink"> Did the user click the link in the email?</a>
+The tasks here are similar to the previous investigation step - Did the user click the link in the email?
 
 ### Was malicious code executed?
 
-The tasks here are similar to the previous investigation step: <a name="clicklink"> Did the user click the link in the email?</a>
+The tasks here are similar to the previous investigation step - Did the user click the link in the email?
 
 ### What sign-ins happened with the account?
 
